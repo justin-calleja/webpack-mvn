@@ -1,0 +1,11 @@
+{
+  "name": "fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app",
+  "scripts": {
+    "build": "webpack -p"
+  },
+  "author": "",
+  "license": "ISC"
+}

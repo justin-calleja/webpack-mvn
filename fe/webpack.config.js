@@ -8,8 +8,10 @@ const PATHS = {
 
 module.exports = {
   entry: './app/index.js',
+
   output: {
     path: PATHS.build,
+    publicPath: '/assets/',
     filename: 'app-bundle.js'
   }
 };
